@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./styls.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <h2>⚙ Tip Calculator ⚙</h2>
+            <div class="input-group">
+                <label for="tip">How much was your bill?</label>
+                <div class="amount">
+                    <label for="tip" class="inspan">₹</label>
+                    <input type="number" id="tip" placeholder="Enter Bill Amount" min="0" required>
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="rating">How was our Service?</label>
+                <div class="options">
+                    <select class="service" required>
+                        <option value="0" disabled selected>-- Choose an option --</option>
+                        <option value="0.3">30% - Outstanding</option>
+                        <option value="0.2">20% - Good</option>
+                        <option value="0.15">15% - It was okay</option>
+                        <option value="0.1">10% - Bad</option>
+                        <option value="0.05">5%  - Terrible</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="people">How many people are sharing the bill?</label>
+                <div class="counts">
+                    <input type="number" id="people" placeholder="Peers" min="1" required>
+                    <label for="people" class="inspan">People</label>
+                </div>
+            </div>
+            <button class="calc">Calculate &nbsp; <i class="fa-solid fa-calculator" style="color: #09416e;"></i></button>
+            <div class="total-tip">
+                <h4>Tip Amount:</h4>
+                <h1>₹ 0</h1>
+                <button class="reset" onClick="window.location.reload()">Reset &nbsp; <i class="fa-solid fa-arrows-rotate" style="color: #09416e;"></i></button>
+            </div>
+            <p class="signature">Designed By <span>Mayank Gupta</span>&nbsp; ❤</p>
+        </main>
+    </div>
+    <script src="https://kit.fontawesome.com/08f45ad4dd.js" crossorigin="anonymous"></script>
+    <script src = "./script.js"></script>
+</body>
+</html>
