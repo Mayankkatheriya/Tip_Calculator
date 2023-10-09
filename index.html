@@ -14,7 +14,11 @@
                 <label for="tip">How much was your bill?</label>
                 <div class="amount">
                     <label for="tip" class="inspan">₹</label>
-                    <input type="number" id="tip" placeholder="Enter Bill Amount" min="0" required>
+
+                    <!-- ! onkeypress attribute for ignoring negative value -->
+
+
+                    <input type="number" id="tip" placeholder="Enter Bill Amount" min="0" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" required>
                 </div>
             </div>
             <div class="input-group">
@@ -33,7 +37,10 @@
             <div class="input-group">
                 <label for="people">How many people are sharing the bill?</label>
                 <div class="counts">
-                    <input type="number" id="people" placeholder="Peers" min="1" required>
+
+                    <!-- ! oninput attribute for ignoring negative value -->
+
+                    <input type="number" id="people" placeholder="Peers" min="1" oninput="validity.valid||(value='');" required>
                     <label for="people" class="inspan">People</label>
                 </div>
             </div>
