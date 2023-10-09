@@ -18,7 +18,7 @@
                     <!-- ! onkeypress attribute for ignoring negative value -->
 
 
-                    <input type="number" id="tip" placeholder="Enter Bill Amount" min="0" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" required>
+                    <input type="number" id="tip" placeholder="Enter Bill Amount" min="0" oninput="validity.valid||(value='');" required>
                 </div>
             </div>
             <div class="input-group">
