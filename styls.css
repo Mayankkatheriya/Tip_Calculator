@@ -24,14 +24,14 @@
 main{
     backdrop-filter: 20px;
     width: 60%;
-    max-width: 400px;
+    max-width: 475px;
     min-width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
     padding-top: 0.4rem;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(5px);
     border-radius: 30px 0;
     box-shadow: 0 0 10px 8px grey;
 }
@@ -190,7 +190,7 @@ button:hover {
     padding: 0 40px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 475px) {
     .container{
         padding: 0;
         padding-left: 0;
