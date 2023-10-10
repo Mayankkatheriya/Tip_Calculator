@@ -2,11 +2,11 @@
 ## Hosted Link: [→Clcik Me←](https://mayankkatheriya.github.io/Tip_Calculator/)
 
 # UI:
-![image](https://github.com/Mayankkatheriya/Tip_Calculator/assets/128832286/4c5afaa9-3aa0-4277-9f4b-36cba0cc72a4)
+![image](https://github.com/Mayankkatheriya/Tip_Calculator/assets/128832286/362d3bfa-b93d-4883-ba03-7dbe26cc7688)
 
 ---
 
-## Explaination:
+## Explanation:
 
 
 This code creates a Tip Calculator web application. Here's a summary in 8-10 lines:
