@@ -1,5 +1,5 @@
 # Tip_Calculator
-## Hosted Link: [→Clcik Me←](https://mayankkatheriya.github.io/Tip_Calculator/)
+## Hosted Link: [→Click Me←](https://mayankkatheriya.github.io/Tip_Calculator/)
 
 # UI:
 ![image](https://github.com/Mayankkatheriya/Tip_Calculator/assets/128832286/362d3bfa-b93d-4883-ba03-7dbe26cc7688)
