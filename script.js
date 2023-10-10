@@ -8,8 +8,9 @@ let tipDisplay = document.querySelector(".total-tip h1")
 btn.addEventListener("click", function(){
     let amt = Number(amount.value);
     let serv = Number(service.value);
-    let ppl = Number(people.value);
-    let curr = Number(currency.value);
+    let ppl = 1;
+    ppl = Number(people.value);
+    curr = Number(currency.value);
     let totalTip = (amt*serv*curr)/ppl;
     let sign = '₹ '
     if(curr == 0.044){
